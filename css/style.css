@@ -1,0 +1,65 @@
+body {
+    color: white;
+}
+
+/* Navbar */
+.navbar-brand {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-control {
+    color: white !important;
+    background-color: #343a40 !important; /* Bootstrap's primary color */
+    border: 1px solid #343a40 !important;
+}
+
+.form-control::placeholder {
+    color: #adb5bd !important;
+}
+
+.btn-outline-light {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn-outline-light:hover {
+    color: #343a40 !important;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+/* Carousel */
+.carousel-item {
+    height: 700px; /* Set the height for carousel item */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%; /* Maintain image aspect ratio */
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* Card */
+.card, .card-body, .card-title, .card-text {
+    height: auto;
+}
+
+/* Footer */
+.custom-footer {
+    color: white !important;
+}
